@@ -1,0 +1,164 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Merienda';
+
+}
+#header{
+  font-family: 'Merienda';
+  display: table;
+  width:100%;
+  background: url(/SA-Brand/images/neonbb.png);
+  height:100px;
+}
+#header img{
+  width:300px;
+  max-width: 100%;
+  /*border: 1px solid black;*/
+}
+#con-head{
+  display: table-cell;
+  text-align:right;
+  vertical-align:middle;
+  font-size: 1vw;
+  height:auto;
+}
+#con-head span{
+  color:white;
+  margin-right:10px;
+}
+#slider{
+  width:100%;
+}
+#footer{
+  font-family: 'Merienda';
+  display: table;
+  width:100%;
+  height:100px;
+  background-color:rgba(0,0,0,0.6);
+}
+#con-foo img{
+  width:100px;
+  max-width: 50%;
+}
+#con-foo{
+  display: table-cell;
+  vertical-align:middle;
+  height:auto;
+  text-align:center;
+}
+#con-foo1{
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 1vw;
+  height:auto;
+  color:white;
+  width:50%;
+  text-align:center;
+}
+#about{
+  font-family: 'Merienda';
+  height: 700px;
+  width: 100%;
+  background: url(/SA-Brand/images/white.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+#services{
+  font-family: 'Merienda';
+  height: 700px;
+  width: 100%;
+  background: url(/SA-Brand/images/neonb.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+#temp{
+  background-color:rgba(0,0,0,0.6);
+  font-family: 'Merienda';
+  height: 700px;
+  width: 100%;
+  background: url(/SA-Brand/images/white.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+#contact{
+  font-family: 'Merienda';
+  height: 600px;
+  width: 100%;
+  background: url(/SA-Brand/images/neonlb.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  display:table;
+}
+#find{
+font-family: 'Merienda';
+height: 600px;
+max-width: 100%;
+width: 100%;
+background: url(/SA-Brand/images/map-sa.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+text-align:center;
+display:table;
+}
+#f1{
+  font-size:84px;
+  text-shadow: 0 0 15px #00FFFF;
+  display:table-cell;
+  width:50%;
+  height:100%;
+  max-width: 100%;
+  vertical-align:middle;
+}
+#f2{
+  display:table-cell;
+  width:50%;
+  height:100%;
+  max-width: 100%;
+  vertical-align:middle;
+  text-align:center;
+  z-index:999;
+}
+#f2 span{
+  display:block;
+}
+#map{
+  box-shadow: 5px 5px 50px #888888;
+  height: 250px;
+  width: 600px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#find-add1{
+  max-width: 100%;
+  width:100px;
+  height:30px;
+  background-color:rgba(0,0,0,0.3);
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: black;
+}
+#find-add2{
+  max-width: 100%;
+  width:400px;
+  height:160px;
+  background-color:rgba(0,0,0,0.1);
+  color:rgba(0,0,0,0.8);
+  text-align:left;
+  border: 1px solid black;
+}
